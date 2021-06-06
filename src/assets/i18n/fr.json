@@ -1,0 +1,51 @@
+{
+    "nav": {
+      "homePage": "Page d'accueil",
+      "contact": "Contact",
+      "information": "À propos de nous",
+      "log": "Connexion",
+      "language": "Langue",
+      "wcag": "Accessibilité"
+        },
+    "home": {
+        "departure": "Ville départ",
+        "arrival": "Ville d'arrivée",
+        "departuretDate": "Date de départ",
+        "dateOfArrival": "Date d'arrivée",
+        "passengers": "Nombre de passagers",
+        "goTo": "Aller plus loin"
+    },
+    "wcag": {
+      "accesability": "Accessibilité",
+      "options": "Options de modification de l'apparence de la page",
+      "contrast": "contraste élevé",
+      "bigFont": "Augmentation du nombre de cas",
+      "letterSpacing": "Augmentation de l'espace entre les lettres",
+      "lineSpacing": "Augmentation de l'espace entre les lignes",
+      "declaration": "Déclaration de disponibilité"
+    },
+    "vol": {
+      "flightInfo": "Données de vol sélectionnées",
+      "flightFrom": "Lieu de départ",
+      "flightTo": "Lieu d'arrivée",
+      "flightDate": "Date de départ",
+      "returnDate": "Date d'arrivée",
+      "passengers": "Nombre de passagers",
+      "data": "Remplissez les données ci-dessous",
+      "name": "Nom",
+      "surname": "Nom de famille",
+      "city": "Miasto",
+      "zipCode": "Code postal",
+      "street": "Ulica",
+      "houseNb": "Numéro de maison",
+      "apartNb": "Numéro d'appartement",
+      "id": "Type de document",
+      "idNb": "Numéro de document",
+      "phone": "Numéro de contact",
+      "email": "Adresse e-mail",
+      "idPass": "Passeport",
+      "idCard": "carte d'identité",
+      "goTo": "Aller à la sélection de siège"
+  
+    }
+  }

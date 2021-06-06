@@ -6,19 +6,19 @@
     <ul>
         <li>
             <label for="contrast">{{ 'wcag.contrast' | translate}} </label>
-            <input type="checkbox" name="" id="contrast" (click) = "darkMode()" >
+            <input type="radio" name="" id="contrast" (click) = "darkMode()" >
         </li>
         <li>
             <label for="bigFont">{{ 'wcag.bigFont' | translate}} </label>
-            <input type="checkbox" name="" id="bigFont" (click) = "bigFont()">
+            <input type="radio" id="bigFont" (click) = "bigFont()">
         </li>
         <li>
             <label for="letterSpacing">{{ 'wcag.letterSpacing' | translate}} </label>
-            <input type="checkbox" name="" id="letterSpacing" (click) = "letterSpacing()">
+            <input type="radio" name="" id="letterSpacing" (click) = "letterSpacing()">
         </li>
         <li>
             <label for="lineSpacing">{{ 'wcag.lineSpacing' | translate}} </label>
-            <input type="checkbox" name="" id="lineSpacing" (click) = "lineSpacing()">
+            <input type="radio" name="" id="lineSpacing" (click) = "lineSpacing()">
         </li>
         
     </ul>

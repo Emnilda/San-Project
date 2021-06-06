@@ -1,19 +1,45 @@
 .main{
-    background: url("./../../../assets/Img/samolot.jpg") center no-repeat fixed;
+
+  background: url("./../../../assets/Img/passport-2714675_1280.jpg") center no-repeat fixed;
     background-size: cover;
     padding: 20vh 0;
     font-size: 1.2rem;
   }
   
+  .intro{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    h1{
+      position: absolute;
+
+      color: rgb(255, 15, 175)
+    }
+    .btn {
+      position: absolute;
+      width:200px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+  }
   .search{
   
-    margin-left: 5vw;
-    background-color:rgba(0, 0, 255, 0.514);
+    margin: auto;
+    background-color:rgba(170, 170, 187, 0.514);
     max-width: 400px;
     color: white;
     border-radius: 25px;
+    padding: 40px;
+
   }
-  
+iframe{
+  width: 100%;
+}
+
   .inputs{
     display: flex;
   }

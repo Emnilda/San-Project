@@ -1,5 +1,7 @@
 h1{
     text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4rem;
 }
 
 .clock{
@@ -14,6 +16,7 @@ ul {
     justify-content: space-around;
     list-style: none;
     flex-wrap: wrap;
+
 }
 
 a {
@@ -22,5 +25,5 @@ a {
 }
 
 a:hover{
-    color: yellow
+    color: yellow;
 }

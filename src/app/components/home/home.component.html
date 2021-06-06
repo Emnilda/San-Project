@@ -1,4 +1,5 @@
 <div class="main" [class.dark]="darkMode" [class.bigFont]="bigFont" [class.letterSpacing]="letterSpacing" [class.lineSpacing] = "lineSpacing">
+
   <div class="search" [ngClass]="[darkMode ? 'dark': 'search']">
     <div class="inputs">
       <ul>
@@ -33,5 +34,16 @@
       <button (click)="getDataFromForm()" class="btn">{{ 'home.goTo' |translate}}</button>
     </div>
   </div>
+
 </div>
-<app-weather></app-weather>
+<iframe width="1536" height="864" src="https://www.youtube.com/embed/msJ_JJB8q3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="956" height="538" src="https://www.youtube.com/embed/osroej44LP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="956" height="538" src="https://www.youtube.com/embed/dygag9tZ4Is" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<ng-container *ngIf="this.temp">
+  <div class="intro">
+    <h1>Wejdź do świata magicznych podróży...</h1>
+<img style="height: 100%; width: 100% ;" src="https://www.remax.eu/uploads/agent-1/Greece%20(Optimized)-5e580fa45d9f1.jpg">
+        <button  class="btn" (click)="this.temp = !this.temp">Zapraszamy !</button>
+</div>
+</ng-container>

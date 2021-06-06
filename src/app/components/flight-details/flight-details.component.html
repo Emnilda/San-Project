@@ -1,5 +1,7 @@
    <div class="main" [class.dark]="darkMode" [class.bigFont]="bigFont" [class.letterSpacing]="letterSpacing"
      [class.lineSpacing]="lineSpacing">
+     <app-weather></app-weather>
+     <div class="info">
      <h2> {{'flight.flightInfo' | translate}} </h2>
 
      <ul>
@@ -31,4 +33,5 @@
        <li>{{ 'flight.phone' | translate}}: <input type="text" name="" id=""></li>
      </ul>
      <button type="button" (click)="goToSeat()" class="btn">{{'flight.goTo' | translate}}</button>
+    </div>
    </div>

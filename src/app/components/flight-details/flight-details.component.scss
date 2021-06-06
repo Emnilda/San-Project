@@ -1,10 +1,19 @@
 .main {
     text-align: center;
     line-height: 2em;
-    background: url(./../../../assets/Img/clouds.jpg);
+    background: url(./../../../assets/Img/trip-2203682_1280.jpg);
     background-size: cover;
     background-attachment: fixed;
     padding:  20px 0;
+    text-align: center;
+}
+.info{
+    margin: auto;
+    width: 55%;
+    border-radius: 10px;
+    border: solid black 3px;
+    background-color: rgba(236, 236, 241, 0.733);
+    padding: 10px;
 }
 
 li{

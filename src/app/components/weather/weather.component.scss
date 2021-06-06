@@ -1,0 +1,22 @@
+.weather-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+
+}
+
+.weather  {
+    color: yellow;
+    margin: 15px 10px;
+    flex-basis: auto;
+    background-color: rgba(0, 0, 255, 0.233);
+    max-width: 45vw;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    p {
+        text-align: left;
+    }
+}

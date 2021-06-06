@@ -18,6 +18,7 @@ export class HomeComponent implements OnInit {
   @ViewChild("whenReturn") whenReturn:any;
   @ViewChild("passangers") passangers: any;
 
+  temp = true;
   darkMode = false;
   bigFont = false;
   letterSpacing = false;
