@@ -1,0 +1,23 @@
+.container{
+    padding: 30px 15vw;
+    text-align: justify;
+    background-image: url(../../../assets/Img/maldives-1993704_1280.webp);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    h2{
+        text-align: center;
+    }
+    img{
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .shadow{
+        background-color: rgba(173, 216, 230, 0.719);
+        border-radius: 25px;
+        padding: 20px;
+    }
+    button{
+        margin: 10px 0 10px 50%;
+        transform: translateX(-50%);
+    }
+}

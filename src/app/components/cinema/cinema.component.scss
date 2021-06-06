@@ -1,0 +1,17 @@
+.container{
+    padding: 20px 5vw;
+    text-align: justify;
+    background-image: url(./../../../assets/Img/film-596009_1920.jpg);
+    background: cover;
+
+}
+
+.cinema{
+    display: flex;
+    flex-wrap: wrap;
+    img{
+        width: 500px;
+        height: 660px;
+        margin: 10px;
+    }
+}

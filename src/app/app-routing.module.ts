@@ -7,6 +7,8 @@ import { ContactComponent } from './components/contact/contact.component'
 import { FlightDetailsComponent } from './components/flight-details/flight-details.component';
 import { SeatReservationComponent } from './components/seat-reservation/seat-reservation.component';
 import { LoginComponent } from './components/login/login.component';
+import { CinemaComponent } from './components/cinema/cinema.component';
+import { SafetyComponent } from './components/safety/safety.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -16,6 +18,8 @@ const routes: Routes = [
   {path: 'flight', component: FlightDetailsComponent},
   {path: 'seat', component: SeatReservationComponent},
   {path: 'login', component: LoginComponent},
+  {path: 'cinema', component: CinemaComponent},
+  {path: 'safety', component: SafetyComponent},
   {path: '', redirectTo: 'home', pathMatch: 'full'}
 ];
 

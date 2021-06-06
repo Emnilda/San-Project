@@ -22,9 +22,6 @@ export class WcagComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  langPl = false;
-  langEn = false;
-  langEs = false;
   
   darkMode(){
     this.darkModeTemp = !this.darkModeTemp;

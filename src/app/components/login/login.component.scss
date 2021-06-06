@@ -1,0 +1,21 @@
+.container{
+    text-align: center;
+    padding: 30px;
+    background-image: url(./../../../assets/Img/mount-fuji-2305606_1280.jpg);
+    background-position: fixed;
+    height: 45vh;
+    .login{
+        background-color: rgba(255, 255, 255, 0.473);
+        padding: 20px;  
+        ul{
+            list-style: none;
+        }
+        li{
+            padding: 10px;
+        }
+        button{
+            margin: 10px 0;
+
+        }
+    }
+}

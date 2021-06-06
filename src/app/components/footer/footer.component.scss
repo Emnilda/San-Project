@@ -2,6 +2,7 @@
   .wrapper{
     display: flex;
     justify-content: space-around;
+    text-align: center;
   }
   
   ul{
@@ -12,7 +13,12 @@
   }
   li{
     list-style-type: none;
-  }
+    padding: 10px;
+    cursor: pointer;
+      }
+  li:hover{
+    color:yellow;
+  }    
   
   li:first-of-type{
     margin-top: 10px;

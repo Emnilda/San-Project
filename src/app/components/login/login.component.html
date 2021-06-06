@@ -1,1 +1,13 @@
-<p>login works!</p>
+<div class="container">
+    <div class="login">
+        <ul>
+            <li> Wpisz swój adres e-mail:
+                <input type="email" [(ngModel)]="email">
+            </li>
+            <li> Wpisz swóje hasło:
+                <input type="password" [(ngModel)]="password">
+            </li>
+            <button class="btn" (click)="login()">Zaloguj</button>
+        </ul>
+    </div>
+</div>
