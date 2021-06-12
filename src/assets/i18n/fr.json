@@ -46,6 +46,16 @@
       "idPass": "Passeport",
       "idCard": "carte d'identité",
       "goTo": "Aller à la sélection de siège"
-  
-    }
+      },
+      "footer":{
+      "travels": "Voyages",
+      "home": "Page d'accueil",
+      "flights": "Vols",
+      "clients": "Pour les clients",
+      "aboutUs": "À propos de nous",
+      "safety": "Sécurité",
+      "others": "Autres",
+      "cinema": "Voyages cinématographiques",
+      "contact": "Contact"
+      }
   }

@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-
+import { LangService } from 'src/app/services/lang.service';
 import { WcagService } from './../../services/wcag.service'
 
 @Component({
@@ -22,9 +22,11 @@ export class HeaderComponent implements OnInit {
   bigFont = false;
   letterSpacing = false;
   lineSpacing = false;
+  @ViewChild('langselect') myLang: any
   constructor(
     private wcag:WcagService,
-    public translate:TranslateService
+    public translate:TranslateService,
+    private lang: LangService
   ) {
     translate.addLangs(["pl","en","es","fr"]);
   // translate.setDefaultLang("pl");
@@ -59,6 +61,9 @@ export class HeaderComponent implements OnInit {
     this.bigFont = this.wcag.bigFont
     this.letterSpacing = this.wcag.letterSpacing
     this.lineSpacing = this.wcag.lineSpacing
+  }
+  setLanguage(){
+    this.lang.lang = this.myLang.nativeElement.value
   }
 }
 

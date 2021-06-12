@@ -46,5 +46,16 @@
       "idPass": "Passport",
       "idCard": "ID card",
       "goTo": "Go to seat selection" 
+    },
+    "footer": {
+      "travels": "Travels",
+      "home": "Home page",
+      "flights": "Flights",
+      "clients": "For clients",
+      "aboutUs": "About us",
+      "safety": "Safety",
+      "others": "Others",
+      "cinema": "Film journeys",
+      "contact": "Contact"
     }
   }

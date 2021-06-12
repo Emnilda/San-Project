@@ -1,5 +1,6 @@
-<div class="container">
-  <div class="shadow">
+<div class="container" [class.dark]="darkMode" [class.bigFont]="bigFont" [class.letterSpacing]="letterSpacing" [class.lineSpacing] = "lineSpacing">
+  <div class="border" [ngClass]="[darkMode ? 'dark' : 'shadowColor']">
+    <ng-container *ngIf="myLang=='pl'">
     <h2>O nas:</h2>
     <p> Nasza nazwa swoje źródło ma w powieści "W drodze", amerykańskiego pisarza Jacka Kerouac'a z 1957 roku, oparta na
       podróżach autora i jego przyjaciół po Stanach Zjednoczonych. Książka ta znalazła się, między innymi, na 55.
@@ -10,7 +11,45 @@
       Bestsellerowa powieść opisuje podróż Sal Paradise, Dean Moriarty i Marylou przez USA i oparta jest na prawdziwej
       wyprawie autora. Postać Marylou odzwierciedla żyjącą w rzeczywistym świecie Luannę Henderson, która w wieku 15 lat
       została żoną jednego z bohaterów "W drodze".</p>
+    </ng-container>
+    <ng-container *ngIf="myLang=='en'">
+      <h2> About us: </h2>
+     <p> Our name has its source in the novel "On the way" by the American writer Jack Kerouac from 1957, based on
+       the author's and his friends' travels around the United States. This book was included, inter alia, at 55.
+       on the list of the 100 best English-language novels of the twentieth century. </p>
+
+     <p>
+
+       The best-selling novel describes the journey of Sal Paradise, Dean Moriarty and Marylou through the USA and is based on a real
+       the author's expedition. The character of Marylou reflects the real-world Luanna Henderson, 15 years old
+       became the wife of one of the heroes of "On the way". </p> 
+    </ng-container>
+    <ng-container *ngIf="myLang=='es'">
+      <h2> Acerca de nosotros: </h2>
+      <p> Nuestro nombre tiene su origen en la novela "On the Road" del escritor estadounidense Jack Kerouac de 1957, basada en
+        los viajes del autor y sus amigos por los Estados Unidos. Este libro se incluyó, entre otras cosas, en el 55.
+        lugar en la lista de las 100 mejores novelas en lengua inglesa del siglo XX. </p>
+ 
+      <p>
+ 
+        La novela más vendida describe el viaje de Sal Paradise, Dean Moriarty y Marylou a través de EE. UU. Y se basa en un
+        la expedición del autor. El personaje de Marylou refleja a la Luanna Henderson del mundo real, de 15 años.
+        se convirtió en la esposa de uno de los héroes de "On the way". </p>
+    </ng-container>
+    <ng-container *ngIf="myLang=='fr'">
+      <h2> À propos de nous : </h2>
+      <p> Notre nom a sa source dans le roman "Sur la route" de l'écrivain américain Jack Kerouac de 1957, basé sur
+        les voyages de l'auteur et de ses amis à travers les États-Unis. Ce livre a été inclus, entre autres, à 55 ans.
+        figure sur la liste des 100 meilleurs romans de langue anglaise du XXe siècle. </p>
+ 
+      <p>
+ 
+        Le roman à succès décrit le voyage de Sal Paradise, Dean Moriarty et Marylou à travers les États-Unis et est basé sur un vrai
+        l'expédition de l'auteur. Le personnage de Marylou reflète le monde réel Luanna Henderson, 15 ans
+        est devenue l'épouse d'un des héros de "En chemin". </p>
+    </ng-container>
     <img src="./../../../assets/Img/mary/Marylou.jpg" alt="Marylou">
+    <ng-container *ngIf="myLang=='pl'">
     <p>Marylou Travel jest wyjątkową linią lotniczą. Tym, co wyróżnia Nas spośród innych firm, to serce włożone w każdy
       najdrobniejszy szczegół podróży. Nieustannie rozwijamy się i udoskonalamy, aby Wasza podróż była pięknym
       wspomnieniem!</p>
@@ -23,7 +62,46 @@
       rozwijamy połączenia.</p>
     <p>Kładziemy duży nacisk na to, aby podróż była bezpieczna również dla środowiska – wdrożyliśmy oszczędne
       gospodarowanie paliwem, technologie zgodne ze standardami ekologicznymi, na przykład związane z minimalizacją
-      poziomu hałasu. Możemy pochwalić się także niskim wskaźnik emisji dwutlenku węgla!</p>
+      poziomu hałasu. Możemy pochwalić się także niskim wskaźnik emisji dwutlenku węgla!</p></ng-container>
+      <ng-container *ngIf="myLang=='en'"><p> Marylou Travel is an exceptional airline. What distinguishes us from other companies is the heart put into each of them
+        the smallest detail of the journey. We are constantly developing and improving to make your journey beautiful
+        memory! </p>
+      <p> The safety and comfort of passengers' travel is of key importance to us. </p>
+      <p> Marylou Travel provides professional services and at the same time affordable prices and weekly attractive discounts
+        on selected flights. </p>
+      <p> Our 4,000 skilled employees every day ensure a high standard of flight with precise care. </p>
+      <p> Marylou Travel serves 750 routes! We have modern, safe and extremely aesthetic and
+        comfortable interiors by airplanes. Our fleet consists of 150 aircraft, such as the Boeing 787 "Dreamliner". Always too
+        we develop connections. </p>
+      <p> We place great emphasis on making the journey safe for the environment as well - we have implemented cost-effective ones
+        fuel management, technologies in line with ecological standards, for example related to minimization
+        noise level. We are also proud of our low carbon dioxide emissions! </p></ng-container>
+      <ng-container *ngIf="myLang=='es'"><p> Marylou Travel es una aerolínea excepcional. Lo que nos distingue de otras empresas es el corazón puesto en cada una de ellas
+        el más mínimo detalle del viaje. Estamos en constante desarrollo y mejora para que su viaje sea hermoso.
+        memoria! </p>
+      <p> La seguridad y la comodidad del viaje de los pasajeros es de vital importancia para nosotros. </p>
+      <p> Marylou Travel ofrece servicios profesionales y al mismo tiempo precios asequibles y atractivos descuentos semanales
+        en vuelos seleccionados. </p>
+      <p> Nuestros 4.000 empleados cualificados garantizan cada día un alto nivel de vuelo con una atención precisa. </p>
+      <p> ¡Marylou Travel ofrece 750 rutas! Contamos con modernas, seguras y extremadamente estéticas y
+        cómodos interiores por aviones. Nuestra flota consta de 150 aviones, como el Boeing 787 "Dreamliner". Siempre tambien
+        desarrollamos conexiones. </p>
+      <p> También ponemos gran énfasis en hacer que el viaje sea seguro para el medio ambiente; hemos implementado métodos rentables.
+        gestión de combustibles, tecnologías de acuerdo con las normas ecológicas, por ejemplo relacionadas con la minimización
+        nivel de ruido. ¡También estamos orgullosos de nuestras bajas emisiones de dióxido de carbono! </p></ng-container>
+      <ng-container *ngIf="myLang=='fr'"><p> Marylou Travel est une compagnie aérienne exceptionnelle. Ce qui nous distingue des autres entreprises, c'est le cœur mis dans chacune d'elles
+        le moindre détail du voyage. Nous développons et améliorons constamment pour rendre votre voyage magnifique
+        mémoire ! </p>
+      <p> La sécurité et le confort de voyage des passagers sont d'une importance capitale pour nous. </p>
+      <p> Marylou Travel propose des services professionnels et en même temps des prix abordables et des remises hebdomadaires intéressantes
+        sur certains vols. </p>
+      <p> Nos 4 000 employés qualifiés assurent chaque jour un vol de haute qualité avec un soin précis. </p>
+      <p> Marylou Travel dessert 750 itinéraires ! Nous avons des équipements modernes, sûrs et extrêmement esthétiques et
+        intérieurs confortables en avion. Notre flotte se compose de 150 appareils, comme le Boeing 787 "Dreamliner". Toujours aussi
+        nous développons des connexions. </p>
+      <p> Nous attachons une grande importance à rendre le voyage sûr pour l'environnement - nous avons mis en place des solutions rentables
+        gestion du carburant, technologies conformes aux normes écologiques, par exemple liées à la minimisation
+        niveau de bruit. Nous sommes également fiers de nos faibles émissions de dioxyde de carbone ! </p></ng-container>
     <button class="btn" routerLink="/cinema">Zobacz filmowe podróże</button>
     <button class="btn" routerLink="/safety">Zobacz informacje o bezpieczeństwie</button>
   </div>

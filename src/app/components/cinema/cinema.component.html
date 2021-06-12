@@ -1,4 +1,6 @@
-<div class="container">
+<div class="container" [ngClass]="[darkMode ? 'dark' : 'background']" [class.bigFont]="bigFont" [class.letterSpacing]="letterSpacing" [class.lineSpacing]="lineSpacing">
+
+  <ng-container *ngIf="myLang=='pl'">
   <h2>Nasz filmowe podróże:</h2>
 
   <p>
@@ -12,6 +14,46 @@
     własnej – na miejscu przylotu!
   </p>
   <h2>Nasz propozycje filmowe: </h2>
+</ng-container>
+<ng-container *ngIf="myLang=='en'"><h2> Our cinematic journeys: </h2>
+
+  <p>
+    For travelers, we have prepared a unique opportunity to get to know the treasures of the 10th Muse - Our Rich, during the flight
+    the offer of film screenings available during the flight includes proposals from around the world, a cross-section of various genres,
+    with an emphasis on art cinema and is constantly updated.
+
+  </p>
+  <p>
+    Enter the world of unforgettable cinematic stories that will accompany you until you start creating yourself
+    own - at the arrival point!
+  </p>
+  <h2> Our movie suggestions: </h2></ng-container>
+<ng-container *ngIf="myLang=='es'"><h2> Nuestros viajes cinematográficos: </h2>
+
+  <p>
+    Para los viajeros, hemos preparado una oportunidad única para familiarizarse durante el vuelo con los tesoros de la décima musa: Nuestros ricos.
+    la oferta de proyecciones de películas disponibles durante el vuelo incluye ofertas de todo el mundo, una muestra representativa de varios géneros,
+    con énfasis en el cine de arte y se actualiza constantemente.
+
+  </p>
+  <p>
+    Ingresa al mundo de historias cinematográficas inolvidables que te acompañarán hasta que comiences a crearte a ti mismo
+    propio - en el punto de llegada!
+  </p>
+  <h2> Nuestras sugerencias de películas: </h2></ng-container>
+<ng-container *ngIf="myLang=='fr'"><h2> Nos voyages cinématographiques : </h2>
+
+  <p>
+    Pour les voyageurs, nous avons préparé une occasion unique de se familiariser pendant le vol avec les trésors de la 10e Muse - Notre Riche
+    l'offre de projections de films disponibles pendant le vol comprend des offres du monde entier, un éventail de genres variés,
+    en mettant l'accent sur le cinéma d'art et est constamment mis à jour.
+
+  </p>
+  <p>
+    Entrez dans le monde d'histoires cinématographiques inoubliables qui vous accompagneront jusqu'à ce que vous commenciez à vous créer
+    propre - au point d'arrivée!
+  </p>
+  <h2> Nos suggestions de films : </h2></ng-container>
   <div class="cinema">
 
     <a target="_blank" href="https://www.filmweb.pl/film/Ja%C5%9Bniejsza+od+gwiazd-2009-427379"><img

@@ -46,5 +46,16 @@
         "idPass": "Pasaporte",
         "idCard": "Tarjeta de identificación",
         "goTo": "Ir a la selección de asientos" 
+      },
+      "footer":{
+        "travels": "Podróze",
+        "home": "Casa",
+        "flights": "Vuelos",
+        "clients": "Para clientes",
+        "aboutUs": "Quiénes somos",
+        "safety": "Seguridad",
+        "others": "Otro",
+        "cinema": "Viajes de cine",
+        "contact": "Contacto"
       }
   }

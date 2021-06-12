@@ -11,13 +11,21 @@
         margin-left: 50%;
         transform: translateX(-50%);
     }
-    .shadow{
-        background-color: rgba(173, 216, 230, 0.719);
-        border-radius: 25px;
+    .border{
+         border-radius: 25px;
         padding: 20px;
+    }
+    .shadowColor{
+        background-color: rgba(173, 216, 230, 0.719);
+
     }
     button{
         margin: 10px 0 10px 50%;
         transform: translateX(-50%);
+    }
+}
+@media (max-width: 700px){
+    .container{
+        padding: 10px;
     }
 }

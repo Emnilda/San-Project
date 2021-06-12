@@ -34,3 +34,22 @@ a {
 a:hover{
     color: yellow;
 }
+
+@media (max-width: 760px) {
+    .container{
+        min-height: 60vh;
+    }
+    ul{
+        flex-direction: column;
+        text-align: center;
+        li{
+            padding: 10px;
+        }
+    }
+}
+
+@media (max-width: 1120px){
+    img{
+        display: none;
+    }
+}

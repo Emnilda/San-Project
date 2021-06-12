@@ -46,6 +46,16 @@
       "idPass": "Paszport",
       "idCard": "Dowód osobisty",
       "goTo": "Przejdź do wyboru miejsc"  
-  
-    }
+      },
+      "footer": {
+        "travels":"Podróze",
+        "home": "Strona główna",
+        "flights":"Loty",
+        "clients":"Dla klientów",
+        "aboutUs": "O nas",
+        "safety": "Bezpieczeństwo",
+        "others": "Inne",
+        "cinema": "Filmowe podróże",
+        "contact": "Kontakt"
+      }
   }
